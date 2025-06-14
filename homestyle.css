@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: "https://images4.alphacoders.com/249/thumb-1920-24974.jpg";
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/18/15/02/ufo-1265186_960_720.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    filter: brightness(75%);
+    color: white;
+}
+
+nav {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    nav .logo {
+        width: 25%;
+        text-align: center;
+        color:#03dffc;
+        font-size:180%;
+    }
+
+
+    nav .menu {
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+        font-size: 170%;
+        color: #ebe534;
+    }
+
+
+    main{
+        width:100%;
+        height:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+        color:white;
+    }
+
+    
+
+    section h3{
+        font-size:35px;
+        font-weight:200;
+        letter-spacing:3px;
+        text-shadow:1px 1px 2px;
+    }
+
+    section h1{
+        margin:30px 0 20px 0;
+        font-size:55px;
+        font-weight:700;
+        text-shadow:2px 1px 5px rgb(7, 121, 111);
+    }
+
+    section p{
+        font-size:25px;
+        word-spacing:2px;
+        margin-bottom:25px;
+        text-shadow:1px 1px 1px black;
+    }
+
+    section a{
+        padding:12px 30px;
+        border-radius:4px;
+        outline:none;
+        font-size:25px;
+        font-weight:500;
+        text-decoration:none;
+        letter-spacing:1px;
+        transition:all .5s ease;
+    }
+
+    section .btnone{
+        background:#00b894;
+        color:white;
+    }
+
+    .btnone:hover{
+        background:#00b894;
+        color:white;
+     }
+
+    .change_content:after{
+        content:'';
+        animation:changetext 10s infinite linear;
+        color:#f9fd19;
+        font-size: 50px;
+    }
+
+    @keyframes changetext{
+        0%{content:"Sarnath";}
+        10%{content:"Ranakpur";}
+        12% {content: "Puri";}
+        15%{content:"Tirupati";}
+        20%{content:"Sabarimala";}
+        22%{content:"Nataraja Temple";}
+        25%{content:"Badrinath";}
+        30%{content:"Kedarnath";}
+        32%{content:"St.Peters and paul orthodox";}
+        35%{content:"Dargah Hazrat Nizam";}
+        40%{content:"Velankanni";}
+        45%{content:"Bodhgaya";}
+        50%{content:"Hemkund Sahib";}
+        
+        60%{content:"Golden Temple";}
+        65%{content:"Rameshwaram";}
+        70%{content:"Gangotri";}
+        75%{content:"Haji Ali Dargah";}
+        80%{content:"Dargah Hazrathbal";}
+        82%{content:"St.Francis Xavier";}
+        84%{content:"Gurudhwar";}
+        86%{content:"Amarnath";}
+        88%{content:"Vaishnodevi";}
+        90%{content:"Yamunotri";}
+        94%{content: "Varanasi";}
+        96%{content:"Sun temple";}
+        100%{content:"Jama Masjid";}
+    }
+
+    
+
